@@ -1,9 +1,4 @@
-.container {
-    margin: 0 auto;
-}
-
 /* --------------catalog------------------ */
-
 .catalog {}
 
 .catalog-title {
@@ -40,7 +35,7 @@
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 8px;
-    width: 100%;
+    width: 280px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
@@ -59,7 +54,6 @@
 }
 
 .catalog-btn {
-    cursor: pointer;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -105,7 +99,6 @@
     .catalog-subtitle {
         font-size: 20px;
         line-height: 1;
-        width: 280px;
     }
 
     .item-none {

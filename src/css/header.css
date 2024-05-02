@@ -1,1 +1,135 @@
+.header {
+  box-shadow: 0 1px 0 0 rgba(12, 12, 12, 0.1);
+}
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+.logo {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-top: 27.5px;
+  padding-bottom: 27.5px;
+}
+.burger-wrap {
+}
+.burger-btn {
+  line-height: 0;
+  border: none;
+  background-color: transparent;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.burger-icon {
+  stroke: #0c0c0c;
+}
+
+.header-nav {
+  display: flex;
+}
+.header-nav-list {
+  display: none;
+}
+
+.header-soc-list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .header .container {
+    padding: 0 32px;
+  }
+
+  .logo {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    font-size: 20px;
+    color: #0c0c0c;
+  }
+
+  .burger-btn {
+    padding: 26px 0;
+  }
+
+  .burger-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header .container {
+    padding: 0 64px;
+    gap: 203px;
+    justify-content: center;
+  }
+  .burger-btn {
+    display: none;
+  }
+
+  .logo {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 20px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-nav-item {
+  }
+
+  .header-nav-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #0c0c0c;
+  }
+
+  .header-nav-item .current {
+    position: relative;
+  }
+
+  .header-nav-item .current::after {
+    content: '';
+    border-radius: 100%;
+    background-color: #404bbf;
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+  }
+
+  .header-soc-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-soc-item {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+  }
+  .header-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .header-soc-icon {
+    stroke: #0c0c0c;
+  }
+}

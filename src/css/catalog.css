@@ -1,3 +1,7 @@
+.container {
+    margin: 0 auto;
+}
+
 /* --------------catalog------------------ */
 .catalog {}
 
@@ -26,6 +30,7 @@
 
 .catalog-img {
     margin: 0 auto;
+    margin-bottom: 28px;
 }
 
 .catalog-subtitle {
@@ -66,10 +71,11 @@
     margin: 0 auto;
     display: block;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .catalog-btn:active {
-    background: #1f3cd4;
+    background-color: #1f3cd4;
 }
 
 @media screen and (min-width: 768px) {
@@ -80,6 +86,7 @@
     .catalog-title {
         font-size: 48px;
         line-height: 0.9;
+        margin-bottom: 40px;
     }
 
     .catalog-list {

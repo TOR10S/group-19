@@ -8,7 +8,7 @@
   padding: 0 20px;
   align-items: center;
 }
-.logo {
+.header-logo {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -27,6 +27,7 @@
 }
 .burger-icon {
   stroke: #0c0c0c;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .burger-btn:hover .burger-icon {
@@ -161,7 +162,7 @@
     padding: 0 32px;
   }
 
-  .logo {
+  .header-logo {
     padding-top: 34px;
     padding-bottom: 34px;
     font-size: 20px;
@@ -221,7 +222,7 @@
     display: none;
   }
 
-  .logo {
+  .header-logo {
     padding-top: 32px;
     padding-bottom: 32px;
     font-size: 20px;
@@ -281,5 +282,9 @@
   .header-soc-link:hover,
   .header-soc-link:focus .header-soc-icon {
     fill: #3350e9;
+  }
+
+  .header-soc-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

@@ -1,5 +1,6 @@
 
 .conteiner-sale {
+    max-width: 375px;
     padding: 40px 20px;
 }
 
@@ -189,13 +190,14 @@ color: #fbfbfb;
     }
 
     .sale-content {
+        width: 584px;
         padding: 60px;
     }
 
     .sale-content-titel {
         width: 436px;
         font-size: 32px;
-        line-height: 1.125;
+        line-height: 1.1;
     }
 
     .price {

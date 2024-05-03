@@ -108,6 +108,10 @@
         font-size: 16px;
     }
 
+    .comment-input {
+        height: 90px;
+    }
+
     .comment-input::placeholder {
         line-height: 20px;
         font-size: 16px;
@@ -129,6 +133,7 @@
         font-size: 48px;
         line-height: 44px;
         letter-spacing: -0.96px;
+        margin-bottom: 40px;
     }
 }
     
@@ -137,11 +142,27 @@
         font-size: 48px;
         line-height: 44px;
         letter-spacing: -0.96px;
+        margin-bottom: 40px;
+    }
+
+        .comment-input {
+        height: 90px;
+    }
+
+    .info-input::placeholder {
+        line-height: 20px;
+        font-size: 16px;
     }
 
     .form-container {
+        height: 556px;
         width: 580px;
         padding: 50px 60px;
+    }
+
+    .comment-input::placeholder {
+        line-height: 20px;
+        font-size: 16px;
     }
 
     .form-describe {

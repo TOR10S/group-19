@@ -38,6 +38,12 @@ img {
   height: auto;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 375px;
   padding-left: 20px;

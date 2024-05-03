@@ -1,6 +1,6 @@
 
 .conteiner-sale {
-    width: 100%;
+    max-width: 375px;
     padding: 40px 20px;
 }
 
@@ -9,8 +9,8 @@
     left: 0;
     margin-bottom: 24px;
     font-weight: 600;
-font-size: 48px;
-line-height: 0.92;
+    font-size: 32px;
+    line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
 }
@@ -145,7 +145,7 @@ color: #fbfbfb;
 
 @media screen and (min-width: 768px) {
     .conteiner-sale {
-        width: 100%;
+        max-width: 768px;
         padding: 40px 32px;
     }
 
@@ -230,7 +230,7 @@ color: #fbfbfb;
 
 @media screen and (min-width: 1280px) {
     .conteiner-sale {
-        width: 100%;
+        width: 1280px%;
         padding: 50px 65px;
     }
 

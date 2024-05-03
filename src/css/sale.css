@@ -43,10 +43,10 @@ color: #0c0c0c;
 .picture {
     width: auto;
     height: auto;
-    padding: 50px;
-    /* display: flex;
+    /* padding: 50px; */
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     margin-bottom: 20px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
@@ -238,6 +238,10 @@ color: #fbfbfb;
 display: flex;
 gap: 40px;
 align-items: flex-start;
+}
+
+.sale-content {
+    width: 410px;
 }
 
 .sale-text {

@@ -1,6 +1,6 @@
 
 .conteiner-sale {
-    max-width: 375px;
+    /* max-width: 375px; */
     padding: 40px 20px;
 }
 
@@ -144,7 +144,7 @@ color: #fbfbfb;
 
 @media screen and (min-width: 768px) {
     .conteiner-sale {
-        max-width: 768px;
+        /* max-width: 768px; */
         padding: 40px 32px;
     }
 
@@ -230,7 +230,7 @@ color: #fbfbfb;
 
 @media screen and (min-width: 1280px) {
     .conteiner-sale {
-        max-width: 1280px;
+        /* max-width: 1280px; */
         padding: 50px 65px;
     }
 

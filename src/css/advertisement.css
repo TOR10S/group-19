@@ -39,6 +39,7 @@ background-color: transparent;
 margin-left: 28px;
 margin-top: 28px;
 margin-bottom: 60px;
+padding: 0;
 
 
 
@@ -60,6 +61,15 @@ margin-bottom: 60px;
     .advertisement {
             margin: 80px 32px;
         }
+        .adver {
+            width: 704px;
+            background-image: url(../img/advertisement-img-tablet.png),
+                    linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+        }
+     .button-adver {
+        margin-top: 32px;
+        margin-left: 64px;
+     }
         .text-adver {
             font-weight: 600;
             font-size: 48px;
@@ -70,15 +80,23 @@ margin-bottom: 60px;
         }
     
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .advertisement {
         margin: 100px 65px;
     }
     .adver {
+        width: 1150px;
         display: flex;
+        background-image: url(../img/advertisement-img-desktop.png),
+                linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+    }
+    .text-adver {
+        width: 690px;
+        margin: 83px 80px;
+        padding: 0px;
     }
     .button-adver {
         margin-top: 80px;
-        
+       margin-left: 60px;
     }
 }

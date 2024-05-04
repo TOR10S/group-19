@@ -1,6 +1,13 @@
 /* Reset styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -38,11 +45,19 @@ img {
   height: auto;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width:320px) and (max-width:375px) {

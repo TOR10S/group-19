@@ -145,7 +145,7 @@
 .mob-menu-soc-item {
 }
 .mob-menu-soc-link {
-  padding: 8px;
+  padding: 7px;
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
   display: flex;
@@ -214,11 +214,15 @@
 
 @media screen and (min-width: 1280px) {
   .header .container {
-    padding: 0 64px;
-    gap: 203px;
-    justify-content: center;
+    padding: 0 65px;
+    /* gap: 203px; */
+    justify-content: space-between;
   }
   .burger-btn {
+    display: none;
+  }
+
+  .backdrop {
     display: none;
   }
 
@@ -276,7 +280,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px;
+    padding: 7px;
   }
 
   .header-soc-link:hover,

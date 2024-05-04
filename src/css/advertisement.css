@@ -5,7 +5,7 @@
 .adver {
     border-radius: 30px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-        background-image: url(../img/advertisement-img.png),
+        background-image: url(/img/advertisement-img.png),
             linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
         width: 335px;
         
@@ -61,7 +61,7 @@ padding: 0;
 }
 @media only screen and (min-width: 375px) and (min-resolution: 192dpi) {
     .adver {
-        background-image: url(../img/advertisement-img-2x.png),
+        background-image: url(/img/advertisement-img-2x.png),
                 linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
     }
 }
@@ -71,7 +71,7 @@ padding: 0;
         }
         .adver {
             width: 704px;
-            background-image: url(../img/advertisement-img-tablet.png),
+            background-image: url(/img/advertisement-img-tablet.png),
                     linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
         }
                
@@ -90,7 +90,7 @@ padding: 0;
 }
  @media screen and (min-resolution: 768px) and (min-resolution: 192dpi) {
      .adver {
-         background-image: url(../img/advertisement-img-tablet-2x.png), linear-gradient(rgba(12, 12, 12, 1),
+         background-image: url(/img/advertisement-img-tablet-2x.png), linear-gradient(rgba(12, 12, 12, 1),
                  rgba(12, 12, 12, 1));
      }
  }  
@@ -103,7 +103,7 @@ padding: 0;
     .adver {
         width: 1150px;
         display: flex;
-        background-image: url(../img/advertisement-img-desktop.png),
+        background-image: url(/img/advertisement-img-desktop.png),
                 linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
     }
         
@@ -119,7 +119,7 @@ padding: 0;
 }
 @media screen and (min-resolution: 1280px) and (min-resolution: 192dpi) {
     .adver {
-        background-image: url(../img/advertisement-img-desktop-2x.png), linear-gradient(rgba(12, 12, 12, 1),
+        background-image: url(/img/advertisement-img-desktop-2x.png), linear-gradient(rgba(12, 12, 12, 1),
                 rgba(12, 12, 12, 1));
     }
 }

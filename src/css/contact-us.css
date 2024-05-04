@@ -89,6 +89,17 @@
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.info-button:hover {
+    background-color: #1F3CD4;
+}
+
+.info-button:active {
+    background-color: #1F3CD4;
 }
 
 .image-wraper-about-us {

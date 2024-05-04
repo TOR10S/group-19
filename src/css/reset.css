@@ -1,6 +1,13 @@
 /* Reset styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -41,7 +48,7 @@ img {
 *,
 ::before,
 ::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {

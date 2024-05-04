@@ -1,0 +1,133 @@
+/* --------------catalog------------------ */
+.catalog {}
+
+.catalog-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.catalog-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.catalog-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background: #f3f3f3;
+    padding: 24px 28px;
+}
+
+.catalog-img {
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.catalog-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 8px;
+    width: 280px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.catalog-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);
+}
+
+.item-none {
+    display: none;
+}
+
+.catalog-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    background: #3350e9;
+    border-radius: 16px;
+    min-width: 160px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.catalog-btn:active {
+    background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+    /* ?--------------catalog------------------ */
+
+    .catalog {}
+
+    .catalog-title {
+        font-size: 48px;
+        line-height: 0.9;
+        margin-bottom: 40px;
+    }
+
+    .catalog-list {
+        gap: 32px 16px;
+        margin-bottom: 0;
+    }
+
+    .catalog-item {
+        padding: 24px 32px;
+        width: calc((100% - 1 * 16px) / 2);
+    }
+
+    .catalog-img {
+        margin-bottom: 20px;
+    }
+
+    .catalog-subtitle {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .item-none {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .catalog-btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /* ?--------------catalog------------------ */
+
+    .catalog {}
+
+    .catalog-list {
+        gap: 32px 23px;
+    }
+
+    .catalog-item {
+        width: calc((100% - 2 * 23px) / 3);
+    }
+
+    .catalog-subtitle {
+        width: 304px;
+    }
+}

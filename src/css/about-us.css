@@ -1,145 +1,139 @@
 .about-us {
-    padding: 0px 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  padding: 0px 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .container {
 }
 
 .about-us-hero {
-    border-radius: 30px;
-    width: 335px;
-    height: 446px;
-    background: #f3f3f3;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
+  border-radius: 30px;
+  width: 335px;
+  height: 446px;
+  background: #f3f3f3;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
 }
 
 .about-us-title {
-font-weight: 600;
-font-size: 32px;
-line-height: 1;
-letter-spacing: -0.02em;
-color: #0c0c0c;
-margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
 }
 
 .about-us-texts {
-gap: 20px;
+  gap: 20px;
 }
 
 .about-us-text {
-    max-width: 295px;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
-color: rgba(12, 12, 12, 0.7);
+  max-width: 295px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .about-us-btn {
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    background: #3350e9;
-    border: 0px;
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.29;
-text-align: center;
-color: #fbfbfb;
-margin-top: 40px;
-margin-bottom: 40px;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  border: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .about-us-img {
-    border-radius: 30px;
-width: 335px;
-height: 446px;
+  border-radius: 30px;
+  width: 335px;
+  height: 446px;
 }
 
 /* tablet */
 
-@media screen and (min-width:768px) and (max-width:1279px)
-{
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-us {
+    padding: 0px 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-    .about-us {
-        padding: 0px 32px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+  .about-us-hero {
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 40px;
+  }
 
-    .about-us-hero {
-border-radius: 50px;
-width: 704px;
-height: 512px;
-padding-top: 80px;
-padding-left: 60px;
-padding-right: 60px;
-margin-bottom: 40px;
-    }
+  .about-us-title {
+    margin-bottom: 40px;
+  }
 
-    .about-us-title {
-        margin-bottom: 40px;
-    }
-
-.about-us-btn {
+  .about-us-btn {
     margin-top: 60px;
     margin-bottom: 80px;
-} 
+  }
 
-.about-us-img {
+  .about-us-img {
     border-radius: 50px;
-width: 704px;
-height: 512px;
-}
+    width: 704px;
+    height: 512px;
+  }
 
-.about-us-text {
+  .about-us-text {
     max-width: 584px;
-}
-
+  }
 }
 
 /* PC */
 
-@media screen and (min-width: 1280px) 
-{
+@media screen and (min-width: 1280px) {
+  .about-us {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 65px;
+  }
 
-    .about-us {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding: 0px 65px;
-    }
+  .about-us-div {
+    display: flex;
+  }
 
-    .about-us-div {
-        display: flex;
-    }
+  .about-us-hero {
+    border-radius: 50px;
+    width: 580px;
+    height: 532px;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: 40px;
+  }
 
-    .about-us-hero {
-        border-radius: 50px;
-width: 580px;
-height: 532px;
-padding-top: 80px;
-padding-left: 60px;
-padding-right: 60px;
-margin-right: 40px;
-    }
+  .about-us-text {
+    max-width: 460px;
+  }
 
-    .about-us-text {
-        max-width: 460px;
-    }
+  .about-us-img {
+    border-radius: 50px;
+    width: 530px;
+    height: 532px;
+  }
 
-    .about-us-img {
-        border-radius: 50px;
-width: 530px;
-height: 532px;
-    }
-
-    .about-us-btn:hover {
-        background: #1f3cd4;
-    }
-
+  .about-us-btn:hover {
+    background: #1f3cd4;
+  }
 }

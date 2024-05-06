@@ -105,9 +105,6 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
-  .container {
-    max-width: 100%;
-  }
 
   .info-block {
     flex-direction: column;
@@ -146,12 +143,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 80px;
-  }
 
   .info-block {
     display: flex;
@@ -182,12 +173,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-right: 65px;
-    padding-left: 65px;
-    padding-bottom: 100px;
-  }
 
   .info-block {
     display: flex;

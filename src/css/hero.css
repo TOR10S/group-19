@@ -154,6 +154,12 @@
     padding-bottom: 80px;
   }
 
+  .info-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .text-block {
     width: 557px;
   }
@@ -182,5 +188,24 @@
     padding-right: 65px;
     padding-left: 65px;
     padding-bottom: 100px;
+  }
+
+  .info-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .middle-block {
+    flex-direction: column;
+  }
+
+  .text-block .title-h-one {
+    font-size: 72px;
+    width: 597px;
+  }
+
+  .text-block .description {
+    width: 480px;
   }
 }

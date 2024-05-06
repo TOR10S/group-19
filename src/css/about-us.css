@@ -1,5 +1,7 @@
 .about-us {
     padding: 0px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -7,7 +9,7 @@
 
 .about-us-hero {
     border-radius: 30px;
-    width: 100%;
+    width: 335px;
     height: 446px;
     background: #f3f3f3;
     padding-top: 40px;

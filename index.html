@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script type="module" crossorigin src="/group-19/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/group-19/assets/index-39cbd7ee.css">
+    <link rel="stylesheet" href="/group-19/assets/index-98b5a06a.css">
   </head>
   <body>    
     <header class="header">
@@ -164,20 +164,46 @@
         <div class="middle-block">
           <div class="icons-block">
             <div class="icon">
-              <img src="../img/review-img-1.png" alt="lom" />
+              <img
+                src="../img/review-img-1.png"
+                alt="lom"
+                srcset="../img/review-img-1.png, ../img/review-img-1-2x"
+              />
             </div>
             <div class="icon">
-              <img src="../img/review-img-2.png" alt="lom" />
+              <img
+                src="../img/review-img-2.png"
+                alt="lom"
+                srcset="../img/review-img-2.png, ../img/review-img-2-2x"
+              />
             </div>
             <div class="icon">
-              <img src="../img/review-img-3.png" alt="lom" />
+              <img
+                src="../img/review-img-3.png"
+                alt="lom"
+                srcset="../img/review-img-3.png, ../img/review-img-3-2x"
+              />
             </div>
           </div>
           <a href="" class="scroll-down">Scroll down</a>
         </div>
       </div>
       <div class="image-block">
-        <img src="../img/hero-img.jpg" alt="lom" />
+        <picture>
+          <source
+            srcset="../img/hero-img-desktop.jpg, ../img/hero-img-desktop-2x.jpg"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="../img/hero-img-tablet.jpg, ../img/hero-img-tablet-2x.jpg"
+            media="(max-width: 1279px)"
+          />
+          <source
+            srcset="../img/hero-img.jpg, ../img/hero-img-2x.jpg"
+            media="(max-width: 767px)"
+          />
+          <img src="../img/hero-img.jpg" alt="lom" />
+        </picture>
       </div>
     </div>
   </div>

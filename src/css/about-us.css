@@ -1,4 +1,5 @@
 .about-us {
+    padding: 0px 20px;
 }
 
 .container {
@@ -56,4 +57,87 @@ margin-bottom: 40px;
     border-radius: 30px;
 width: 335px;
 height: 446px;
+}
+
+/* tablet */
+
+@media screen and (min-width:768px) and (max-width:1279px)
+{
+
+    .about-us {
+        padding: 0px 32px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .about-us-hero {
+border-radius: 50px;
+width: 704px;
+height: 512px;
+padding-top: 80px;
+padding-left: 60px;
+padding-right: 60px;
+margin-bottom: 40px;
+    }
+
+    .about-us-title {
+        margin-bottom: 40px;
+    }
+
+.about-us-btn {
+    margin-top: 60px;
+    margin-bottom: 80px;
+} 
+
+.about-us-img {
+    border-radius: 50px;
+width: 704px;
+height: 512px;
+}
+
+.about-us-text {
+    max-width: 584px;
+}
+
+}
+
+/* PC */
+
+@media screen and (min-width: 1280px) 
+{
+
+    .about-us {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0px 65px;
+    }
+
+    .about-us-div {
+        display: flex;
+    }
+
+    .about-us-hero {
+        border-radius: 50px;
+width: 580px;
+height: 532px;
+padding-top: 80px;
+padding-left: 60px;
+padding-right: 60px;
+margin-right: 40px;
+    }
+
+    .about-us-text {
+        max-width: 460px;
+    }
+
+    .about-us-img {
+        border-radius: 50px;
+width: 530px;
+height: 532px;
+    }
+
+    .about-us-btn:hover {
+        background: #1f3cd4;
+    }
+
 }

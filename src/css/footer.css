@@ -5,6 +5,10 @@
   --cards: #f3f3f3;
 }
 
+.footer-address > p {
+  font-style: normal;
+}
+
 .footer-container {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
@@ -47,6 +51,7 @@
 
 .social-item-link svg {
   fill: #cbcbcb;
+  transition: fill .25s cubic-bezier(.4,0,.2,1);
 }
 
 .social-item-link:hover svg {
@@ -103,6 +108,14 @@
   font-size: 12px;
   line-height: 1.33;
   color: var(--background);
+}
+
+.menu-item-link {
+  transition: fill .25s cubic-bezier(.4,0,.2,1);
+}
+
+.menu-item-link:hover,.menu-item-link:active {
+  color: #fbfb99;
 }
 
 .footer-address {

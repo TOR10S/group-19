@@ -1,0 +1,129 @@
+
+.wraper {
+    border-radius: 30px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background-image: url(/img/advertisement-img.png),
+            linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+        width: 100%;
+        height: 363px;
+        padding: 60px 28px;
+        
+}
+.text-wraper {
+font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+padding-top: 0;
+padding-left: 0;
+padding-right: 0;
+
+}
+.text-wraper-your {
+    color: rgba(251, 251, 251, 0.5);
+}
+.button-wraper {
+    font-family: "Gilroy";
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28;
+text-align: center;
+color: #fbfbfb;
+border: 1px solid rgba(251, 251, 251, 0.15);
+border-radius: 16px;
+width: 160px;
+height: 48px;
+background-color: transparent;
+margin-left: 0;
+margin-top: 28px;
+margin-bottom: 0;
+padding: 0;
+}
+ .button-wraper:hover,
+ .button-wraper:focus {
+     background-color: #fbfbfb;
+     color: #0c0c0c;
+ }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+@media screen and (min-width:320px) and (max-width:375px) {
+    .wraper {
+        width: 100%;
+        background-repeat: no-repeat;
+        
+    }
+}
+@media screen and (min-width: 768px) {
+    @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+        .wraper {
+        background-image: url(/img/advertisement-img-tablet-2x.png), linear-gradient (rgba(12, 12, 12, 1),
+        rgba(12, 12, 12, 1));
+        }}
+    }
+    @media screen and (max-width: 767px) {
+        @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+            .wraper {
+            background-image: url(/img/advertisement-img-2x.png), linear-gradient (rgba(12, 12, 12, 1),
+            rgba(12, 12, 12, 1));
+            }}
+        }
+        @media screen and (min-width: 1280px) {
+            @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+                .wraper {
+                background-image: url(/img/advertisement-img-desktop-2x.png), linear-gradient (rgba(12, 12, 12, 1),
+                rgba(12, 12, 12, 1));
+                }}
+            }
+@media only screen and (min-width: 768px) {
+        .wraper {
+            background-image: url(/img/advertisement-img-tablet.png),
+                    linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+                    height: 425px;
+                    padding: 80px 64px;
+        }
+               
+     .button-wraper {
+        margin-top: 32px;
+        margin-left: 0;
+     }
+        .text-wraper {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 0.91;
+            padding-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }    
+} 
+
+@media screen and (min-width: 1280px) { 
+    .wraper {
+        display: flex;
+        background-image: url(/img/advertisement-img-desktop.png),
+                linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+                height: 289px;
+                padding: 83px 80px;
+                gap: 140px;
+    }
+        
+    .text-wraper {
+        width: 690px;
+        padding: 0px;
+    }
+    .button-wraper {
+        margin-top: 0;
+       margin-left: 0;
+    }
+}

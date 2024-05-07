@@ -118,9 +118,10 @@
     border-radius: 30px;
 }
 
-@media screen and (min-width: 320px) and (max-widh: 375px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
     .form-container {
         width: 100%;
+
     }
 
     .image-wraper-about-us {

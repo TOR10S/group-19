@@ -18,7 +18,7 @@
     grid-auto-columns: max-content;
     gap: 8px;
 
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .reviews-list-item {

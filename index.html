@@ -517,12 +517,12 @@
                 </div>
                 <div class="input-wraper">
                 <label for="user-email">
-                    <input type="email" name="user-email" class="info-input" id="user-email" placeholder="Email" required>
+                    <input type="email" name="user-email" class="info-input" id="user-email" placeholder="Email" required pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
                 </label>
                 </div>
                 <div class="input-wraper">
                 <label for="user-phone">
-                    <input type="tel" name="user-phone" class="info-input" id="user-phone" placeholder="+380" required>
+                    <input type="tel" name="user-phone" class="info-input" id="user-phone" placeholder="+380" required pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$  (+380-XX-XXX-XX-XX)">
                 </label>
                 </div>
                 <div class="comment-wraper">

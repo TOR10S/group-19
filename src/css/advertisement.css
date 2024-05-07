@@ -5,6 +5,7 @@
         background-image: url(/img/advertisement-img.png),
             linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
         width: 335px;
+        height: 363px;
         
 }
 .text-adver {
@@ -56,6 +57,13 @@ padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+@media screen and (min-width:320px) and (max-width:375px) {
+    .adver {
+        width: 100%;
+        background-repeat: no-repeat;
+        
+    }
+}
 @media only screen and (min-width: 375px) and (min-resolution: 192dpi) {
     .adver {
         background-image: url(/img/advertisement-img-2x.png),
@@ -67,6 +75,7 @@ padding: 0;
             width: 704px;
             background-image: url(/img/advertisement-img-tablet.png),
                     linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+                    height: 425px;
         }
                
      .button-adver {
@@ -95,6 +104,7 @@ padding: 0;
         display: flex;
         background-image: url(/img/advertisement-img-desktop.png),
                 linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+                height: 289px;
     }
         
     .text-adver {

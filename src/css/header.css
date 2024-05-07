@@ -69,9 +69,10 @@
 }
 
 .mob-menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
+  overflow: auto;
   width: 200px;
   /* min-height: 812px; */
   height: 100%;

@@ -13,13 +13,13 @@
 }
 
 .reviews-list {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: max-content;
+    display: flex;
     gap: 8px;
 
     overflow-x: hidden;
 }
+
+
 
 .reviews-list-item {
     display: flex;
@@ -59,6 +59,20 @@
     color: rgba(12, 12, 12, 0.4);
 }
 
+.hidden-1 {
+    display: none;
+}
+
+.hidden-2 {
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .reviews-list-item {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .reviews-title {
         margin-bottom: 40px;
@@ -81,6 +95,10 @@
         font-size: 16px;
         line-height: 1.25;
     }
+
+    .hidden-1 {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -90,5 +108,13 @@
 
     .reviews-list-item {
         max-width: 370px;
+    }
+
+    .hidden-1 {
+        display: flex;
+    }
+
+    .hidden-2 {
+        display: flex;
     }
 }

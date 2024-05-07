@@ -1,27 +1,29 @@
 
-.adver {
+.wraper {
     border-radius: 30px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         background-image: url(/img/advertisement-img.png),
             linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
-        width: 335px;
+        width: 100%;
+        height: 363px;
+        padding: 60px 28px;
         
 }
-.text-adver {
+.text-wraper {
 font-weight: 600;
 font-size: 32px;
 line-height: 1;
 letter-spacing: -0.02em;
 color: #fbfbfb;
-padding-top: 60px;
-padding-left: 28px;
-padding-right: 28px;
+padding-top: 0;
+padding-left: 0;
+padding-right: 0;
 
 }
-.text-adver-your {
+.text-wraper-your {
     color: rgba(251, 251, 251, 0.5);
 }
-.button-adver {
+.button-wraper {
     font-family: "Gilroy";
 font-weight: 500;
 font-size: 14px;
@@ -33,13 +35,13 @@ border-radius: 16px;
 width: 160px;
 height: 48px;
 background-color: transparent;
-margin-left: 28px;
+margin-left: 0;
 margin-top: 28px;
-margin-bottom: 60px;
+margin-bottom: 0;
 padding: 0;
 }
- .button-adver:hover,
- .button-adver:focus {
+ .button-wraper:hover,
+ .button-wraper:focus {
      background-color: #fbfbfb;
      color: #0c0c0c;
  }
@@ -56,60 +58,72 @@ padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-@media only screen and (min-width: 375px) and (min-resolution: 192dpi) {
-    .adver {
-        background-image: url(/img/advertisement-img-2x.png),
-                linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+@media screen and (min-width:320px) and (max-width:375px) {
+    .wraper {
+        width: 100%;
+        background-repeat: no-repeat;
+        
     }
 }
+@media screen and (min-width: 768px) {
+    @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+        .wraper {
+        background-image: url(/img/advertisement-img-tablet-2x.png), linear-gradient (rgba(12, 12, 12, 1),
+        rgba(12, 12, 12, 1));
+        }}
+    }
+    @media screen and (max-width: 767px) {
+        @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+            .wraper {
+            background-image: url(/img/advertisement-img-2x.png), linear-gradient (rgba(12, 12, 12, 1),
+            rgba(12, 12, 12, 1));
+            }}
+        }
+        @media screen and (min-width: 1280px) {
+            @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+                .wraper {
+                background-image: url(/img/advertisement-img-desktop-2x.png), linear-gradient (rgba(12, 12, 12, 1),
+                rgba(12, 12, 12, 1));
+                }}
+            }
 @media only screen and (min-width: 768px) {
-        .adver {
-            width: 704px;
+        .wraper {
             background-image: url(/img/advertisement-img-tablet.png),
                     linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+                    height: 425px;
+                    padding: 80px 64px;
         }
                
-     .button-adver {
+     .button-wraper {
         margin-top: 32px;
-        margin-left: 64px;
+        margin-left: 0;
      }
-        .text-adver {
+        .text-wraper {
             font-weight: 600;
             font-size: 48px;
             line-height: 0.91;
-            padding-top: 80px;
-            padding-left: 64px;
-            padding-right: 64px;
+            padding-top: 0;
+            padding-left: 0;
+            padding-right: 0;
         }    
-}
- @media screen and (min-resolution: 768px) and (min-resolution: 192dpi) {
-     .adver {
-         background-image: url(/img/advertisement-img-tablet-2x.png), linear-gradient(rgba(12, 12, 12, 1),
-                 rgba(12, 12, 12, 1));
-     }
- }  
+} 
 
 @media screen and (min-width: 1280px) { 
-    .adver {
-        width: 1150px;
+    .wraper {
         display: flex;
         background-image: url(/img/advertisement-img-desktop.png),
                 linear-gradient(rgba(12, 12, 12, 1), rgba(12, 12, 12, 1));
+                height: 289px;
+                padding: 83px 80px;
+                gap: 140px;
     }
         
-    .text-adver {
+    .text-wraper {
         width: 690px;
-        margin: 83px 80px;
         padding: 0px;
     }
-    .button-adver {
-        margin-top: 80px;
-       margin-left: 60px;
-    }
-}
-@media screen and (min-resolution: 1280px) and (min-resolution: 192dpi) {
-    .adver {
-        background-image: url(/img/advertisement-img-desktop-2x.png), linear-gradient(rgba(12, 12, 12, 1),
-                rgba(12, 12, 12, 1));
+    .button-wraper {
+        margin-top: 0;
+       margin-left: 0;
     }
 }

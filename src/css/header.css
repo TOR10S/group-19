@@ -83,8 +83,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 240px 40px 40px 40px;
+  padding: 40px 40px 40px 40px;
+}
+
+.header-nav-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav-link:hover {
+  color: #3350e9;
+}
+
+.header-nav-link:focus {
+  color: #3350e9;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -107,6 +118,7 @@
 .mob-menu-close-icon {
 }
 .mob-menu-nav {
+  margin-top: auto;
 }
 .mob-menu-nav-list {
   display: flex;
@@ -141,6 +153,7 @@
 .mob-menu-soc-list {
   display: flex;
   gap: 10px;
+  margin-top: auto;
 }
 .mob-menu-soc-item {
 }

@@ -10,11 +10,12 @@
 .about-us-hero {
   border-radius: 30px;
   width: 335px;
-  height: 446px;
+  max-height: 446px;
   background: #f3f3f3;
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 40px;
   margin-bottom: 20px;
 }
 
@@ -29,13 +30,15 @@
 
 .about-us-texts {
   gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-us-text {
   max-width: 295px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.29;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
@@ -80,6 +83,7 @@
     padding-top: 80px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 80px;
     margin-bottom: 40px;
   }
 
@@ -88,8 +92,6 @@
   }
 
   .about-us-btn {
-    margin-top: 60px;
-    margin-bottom: 80px;
   }
 
   .about-us-img {
@@ -114,6 +116,7 @@
 
   .about-us-div {
     display: flex;
+    gap: 40px;
   }
 
   .about-us-hero {
@@ -123,17 +126,27 @@
     padding-top: 80px;
     padding-left: 60px;
     padding-right: 60px;
-    margin-right: 40px;
+    margin-bottom: 40px;
+    max-height: 532px;
   }
 
   .about-us-text {
     max-width: 460px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
   }
 
   .about-us-img {
     border-radius: 50px;
     width: 530px;
     height: 532px;
+  }
+
+  .about-us-btn {
+    margin-bottom: 80px;
   }
 
   .about-us-btn:hover {

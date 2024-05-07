@@ -80,6 +80,13 @@
   background: none;
   border: none;
   text-align: right;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-down:hover, .scroll-down:active {
+  color: #3350E9;
 }
 
 .image-block {

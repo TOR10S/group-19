@@ -8,7 +8,6 @@
 .about-us-hero {
   border-radius: 30px;
   width: 335px;
-  max-height: 446px;
   background: #f3f3f3;
   padding-top: 40px;
   padding-left: 20px;
@@ -42,6 +41,7 @@
 }
 
 .about-us-btn {
+  display: block;
   border-radius: 16px;
   width: 160px;
   height: 48px;
@@ -53,7 +53,7 @@
   text-align: center;
   color: #fbfbfb;
   margin-top: 40px;
-  margin-bottom: 40px;
+  padding-top: 15px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -85,7 +85,6 @@
   .about-us-hero {
     border-radius: 50px;
     width: 704px;
-    height: 512px;
     padding-top: 80px;
     padding-left: 60px;
     padding-right: 60px;
@@ -126,12 +125,11 @@
   .about-us-hero {
     border-radius: 50px;
     width: 580px;
-    height: 532px;
     padding-top: 80px;
     padding-left: 60px;
     padding-right: 60px;
-    margin-bottom: 40px;
-    max-height: 532px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
   }
 
   .about-us-text {
@@ -150,7 +148,6 @@
   }
 
   .about-us-btn {
-    margin-bottom: 80px;
   }
 
   .about-us-btn:hover {

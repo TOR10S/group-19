@@ -199,7 +199,7 @@
     width: 330px;
     /* min-height: 1024px; */
     background-image: url(../img/mob-menu-background-img-tablet.jpg);
-    padding: 310px 100px 50px 100px;
+    padding: 50px 100px 50px 100px;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),

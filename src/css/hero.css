@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
-  width: 597px;
+  width: 100%;
 }
 
 .text-block .title-h-one {
@@ -111,15 +111,18 @@
   }
 
   .text-block {
+    width: 100%;
     max-width: 335px;
   }
 
   .text-block .title-h-one {
     font-size: 40px;
+    width: 100%;
   }
 
   .text-block .description {
     font-size: 14px;
+    width: 100%;
   }
 
   .middle-block {
@@ -138,6 +141,10 @@
     margin-right: -20px;
     border: 1px solid #3350e9;
     overflow: hidden;
+  }
+
+  .image-block {
+    width: 100%;
   }
 }
 
@@ -159,6 +166,7 @@
 
   .middle-block {
     flex-direction: column;
+    margin-top: 0;
   }
 
   .text-block .title-h-one {
@@ -182,6 +190,7 @@
 
   .middle-block {
     flex-direction: column;
+    margin-top: 0;
   }
 
   .text-block .title-h-one {
